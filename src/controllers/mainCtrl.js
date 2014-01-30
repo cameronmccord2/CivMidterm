@@ -7,6 +7,6 @@ function mainCtrl($scope, $routeParams, $rootScope, $http, $location, $window){
 	}
 
 	$scope.goHere = function(url){
-		$window.open(url);
+		$window.location.href = url;
 	}
 }
