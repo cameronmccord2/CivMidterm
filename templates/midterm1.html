@@ -1,0 +1,13 @@
+<div class="content">
+    <div ng-repeat="image in images">
+        <div class="tile">
+            <img ng-src="{{image.url}}" class="tileImage">
+            <textarea class="inputRow" ng-model="image.name" placeholder="Name" title="Name"></textarea>
+            <textarea class="inputRow" ng-model="image.artist" placeholder="Artist" title="Artist"></textarea>
+            <textarea class="inputRow" ng-model="image.myth" placeholder="Myth" title="Myth"></textarea>
+            <textarea class="inputRow" ng-model="image.narativeGain1" placeholder="Narative Gain 1" title="Narative Gain 1"></textarea>
+            <textarea class="inputRow" ng-model="image.narativeGain2" placeholder="Narative Gain 2" title="Narative Gain 2"></textarea>
+        </div>
+    </div>
+    <button ng-click="printImages()">print images</button>
+</div>

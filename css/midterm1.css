@@ -1,0 +1,22 @@
+.content{
+    width: 1000px;
+
+    @media only screen 
+	and (min-device-width : 320px) 
+	and (max-device-width : 568px) {
+		width:320px;
+	}
+}
+.tile{
+    float:left;
+    width:180px;
+    margin:10px;
+}
+.inputRow{
+    width:160px;
+    margin:10px;
+}
+.tileImage{
+	width: 110px;
+	margin:10px 35px 0px 35px;
+}
