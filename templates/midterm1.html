@@ -1,7 +1,7 @@
 <div class="content">
     <div ng-repeat="image in images">
         <div class="tile">
-            <img ng-src="{{image.url}}" class="tileImage" ng-href="{{image.mainUrl}}" target="_blank" style="cursor:pointer">
+            <img ng-src="{{image.url}}" class="tileImage" ng-click="goHere(image.mainUrl)" target="_blank" style="cursor:pointer">
             <!-- <input class="inputRow" ng-model="image.mainUrl" placeholder="mainurl"> -->
             <textarea class="inputRow" ng-model="image.howToRemember" placeholder="How to remember" title="How to remember"></textarea>
             <textarea class="inputRow" ng-model="image.name" placeholder="Name" title="Name"></textarea>
